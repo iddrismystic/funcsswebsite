@@ -47,7 +47,7 @@ function About() {
 <div class="note">
     Meet the developers who contributed for the success of this project.
 </div>
-<div class="text-small block-small section">
+<div class="text-small block-small  pointer hover-shadow padding">
     <div class="text-center">
         <img src="images/deo.jpg" class="height-100 width-100 circle" />
     </div>

@@ -90,16 +90,19 @@ function Gettingstarted() {
 
     <div className="container" id="downloadzip">
       <div className="header-2 text-indigo">
-            Download
-       </div>
-<div className="body-1">
+            Download 
+     </div>
+<div className="text-small">
 You can use the link below to download our framework files or you can clone the git repo. It is recommended to use the downloaded files 
 when creating a website or web application for production purpose.
 </div>
 
 <div>
    <a href="https://codeload.github.com/funtechs/Funcss/zip/refs/heads/main">
-   <button className="button text-white hover-up margin-top-20 card indigo ripple">Download Fun Css</button> 
+   <button className="button text-white hover-up margin-top-20 card indigo ripple">
+     Download Fun Css
+     <span class="animate-up-down margin-left-10"><i class="fas fa-download"></i></span>
+  </button> 
    </a>
 </div>
   

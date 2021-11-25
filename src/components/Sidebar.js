@@ -84,16 +84,13 @@ function Sidebar() {
     ]
 
     //handlesidebar
-    const [width, setwidth] = useState("fit-content");
+    const [width, setwidth] = useState("200px");
     const [display, setdisplay] = useState('block');
     const Handlesidebar = ()=>{
-     if(width === "fit-content"){
+     if(width === "200px"){
          setwidth("0px")
-         setdisplay('none')
-
     }else{
-         setwidth("fit-content")
-         setdisplay('block')
+         setwidth("200px")
     }
     }
     const [search, setsearch] = useState('');
@@ -105,7 +102,7 @@ function Sidebar() {
                menu
             </span>
               </div>
-              <div className="SideBar" style={{width : `${width}`, display:`${display}`}}>
+              <div className="SideBar" style={{width : `${width}`}}>
                   <div className="padding">
                           <center>
                           <Logo />
@@ -115,7 +112,7 @@ function Sidebar() {
                   <div className="hr margin-top-10"></div>
 
                   <div>
-                      <input className="input search width-100-p padding-top-10 padding-bottom-10 text-center" onChange={(e)=>setsearch(e.target.value)} placeholder="Search..." />
+                      <input className="input search width-100-p padding-top-20 padding-bottom-20 text-center" onChange={(e)=>setsearch(e.target.value)} placeholder="Search..." />
                   </div>
                   
                   <div className="section">

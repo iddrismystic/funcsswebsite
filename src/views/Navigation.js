@@ -3,9 +3,14 @@ import Footer from './../components/Footer';
 import { useState } from 'react';
 
 function Navigation() {
-    const [height, setheight] = useState("fit-content");
-    const [overflow, setoverflow] = useState("visible");
-    
+    const [height, setheight] = useState("200px");
+    const Handlesidebar = ()=>{
+    if(height === "200px"){
+        setheight("0px")
+    }else{
+        setheight("200px")
+    }
+    }
     return (
         <section>
                                 <div className="content-wrapper">
@@ -192,10 +197,10 @@ This navigation bar have dropdown which contains links to other subpages.
 <div class="preview">
 <div class="navigation-bar responsive light card">
    <div class="text-x-large nav-logo">Logo</div>
-   <div class="navigation-trigger">
+   <div class="navigation-trigger" onClick={Handlesidebar}>
    <i class="fas fa-bars sidebar-trigger"></i>
    </div>
-     <div class="indigo padding collapse">
+     <div class="indigo padding collapse" style={{height:`${height}`}}>
         <div class="link-wrapper">
          <a href="#" class="text-white">Home</a>
        <a href="#services" class="text-white">Services</a>

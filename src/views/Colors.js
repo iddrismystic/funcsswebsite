@@ -1,5 +1,6 @@
 import React from 'react';
 import Footer from '../components/Footer';
+import { Helmet } from 'react-helmet';
 
 function Colors() {
     const color = [
@@ -94,6 +95,17 @@ function Colors() {
 
     return (
         <section className="padding-bottom-20">
+          <Helmet>
+          <title>Css Colors Funcss-Framework</title>
+          <meta name='description' content='
+         use cool and amazing css colors to create awesome websites,
+         using greate colors will make your website more impressive
+       ' />
+    <meta
+    name="keywords"
+    content="fun, css, colors, css colo pallete"
+    />
+          </Helmet>
               <div className="content-wrapper">
             <div className="sub-content padding">
              <div className="border padding height-200 content-middle light">

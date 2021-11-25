@@ -6,17 +6,7 @@
 
 
 /*blob */
-.blob{
-  border-radius: 146px 60px 111px 80px;
--webkit-border-radius: 146px 60px 111px 80px;
--moz-border-radius: 146px 60px 111px 80px;
-background: #8315ba;
-height: 200px;
-width: 200px;
-top: -50px;
-position: absolute;
-right: -50px;
-}
+
 .logo::first-letter{
 font-size: 2rem;
 font-weight: bolder;
@@ -37,10 +27,10 @@ color: #4CAF50;
   left: 0;
   bottom: 0;
   height: 100vh;
-  width:15%;
+  display: block;
   border-right: 1px solid #ddd;
-  overflow-y:auto;
-  transition: 0.4s;
+  overflow:auto;
+  transition: 0.3s linear;
 }
 
 .Content{
@@ -60,7 +50,7 @@ color: #4CAF50;
   
   }
 @media (max-width : 950px){
-  .SideBar{display: none; z-index: 10;background-color: whitesmoke;}
+  .SideBar{z-index: 5;background-color: whitesmoke;}
   .Content{width: 100%;}
   .open-sidebar{display: block;}
 }

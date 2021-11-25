@@ -12,9 +12,11 @@ function Footer(props) {
            <i class="fab fa-twitter footer-icon pointer icon size-1"></i>
          
             </div>
-            <div className="section ">
+            <div className="section text-center">
               Fun css is a modern responsive css framework, it will ease your work in developing
               websites, it comes with pre-defined classes which are use to style your website. 
+              You can download the framework for free and use our website themes and components for free.
+
             </div>
           <div className="row">
               <div className="col sm-12 md-8 lg-8">
