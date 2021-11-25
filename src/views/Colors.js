@@ -96,7 +96,7 @@ function Colors() {
     return (
         <section className="padding-bottom-20">
           <Helmet>
-          <title>Css Colors Funcss-Framework</title>
+          <title>Funcss colors | funcss framework</title>
           <meta name='description' content='
          use cool and amazing css colors to create awesome websites,
          using greate colors will make your website more impressive
